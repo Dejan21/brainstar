@@ -1,6 +1,6 @@
-.Banner{
-    background-image: url("C:\Users\Lenovo\Desktop\my-app\src\assets\IMG_1.jpg");
-    background-position: center center;
+.Banner {
+  background-image: url("assets/IMG_1.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
@@ -10,30 +10,35 @@
   position: relative;
   margin-top: 15px;
   margin-bottom: 30px;
-
 }
 .Banner h1 {
-    font-weight: 500;
-    padding: 0 15px;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-    font-size: 63px;
-    z-index: 101;
-    position: relative;
-    z-index: 101;
-  }
-  .main {
-    margin: 0 100px 0 650px;
-    padding-top: 50px;
-  }
+  font-weight: 500;
+  padding: 0 15px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-size: 63px;
+  z-index: 101;
+  position: relative;
+  z-index: 101;
+}
+.main {
+  margin: 0 50px;
+  padding-top: 50px;
+}
 .Navbar {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .box-image {
-    box-sizing: border-box;
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+}
+
+.box-image {
+  box-sizing: border-box;
+}
+
+.card-link{
+  position: left;
+}
+.img{
+  width: 50px;
+  height: 50px;
+}
